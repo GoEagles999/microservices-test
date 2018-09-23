@@ -1,0 +1,10 @@
+version: '3'
+services:
+  api:
+    build: .
+    ports:
+     - "3000:3000"
+    links: 
+     - "data:redis-container"
+  data:
+    image: "redis:alpine"

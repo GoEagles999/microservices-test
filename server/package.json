@@ -1,0 +1,22 @@
+{
+  "name": "datix-microservices",
+  "version": "1.0.0",
+  "description": "RESTful API service and DataService with Redis",
+  "scripts": {
+    "start": "node app.js",
+    "debug": "DEBUG=* app.js",
+    "test": "jest"
+  },
+  "author": "richard demeny",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.8",
+    "express": "^4.16.3",
+    "redis": "^2.8.0",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "debug": "^4.0.1",
+    "jest": "^23.6.0"
+  }
+}
